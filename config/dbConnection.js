@@ -12,6 +12,5 @@ var connMySQL = function () {
 
 
 module.exports = function () {
-    console.log("Autoload carregou a conexão com o banco")
     return connMySQL;
 };
